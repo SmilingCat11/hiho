@@ -1,5 +1,6 @@
 // hiho1082.cpp -- 然而沼跃鱼早就看穿了一切 
 // WA 
+// still can't find any wrong 
 #include <stdio.h>
 #include <string.h>
 #define maxn 210
@@ -9,8 +10,8 @@ char s2[] = "MARSHTOMP";
 char s3[] = "fjxmlhx";
 int main()
 {
-//	freopen("test.in", "r", stdin);
-//	freopen("test.out", "w", stdout); 
+	freopen("test.in", "r", stdin);
+	freopen("test.out", "w", stdout); 
 	while ( gets(s) != NULL ) {
 		for (int i = 0; i < strlen(s); i++) {
 			int j = 0, k = 0;
