@@ -1,5 +1,5 @@
 // hiho1223.cpp -- 不等式
-// WA
+// AC 
 // X 不一定为整数，枚举X时出错，因此对num[i]作右移处理 
 #include <stdio.h> 
 #include <string.h>
